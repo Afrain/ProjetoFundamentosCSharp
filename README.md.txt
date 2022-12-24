@@ -22,3 +22,14 @@ Números com casas decimais
 Declarando os tipos de variáveis
 Manipulando variáveis
 O tipo DateTime
+
+Tipos de Operadores em C#
+
+Operador de atibuição
+Combinando operadores
+Convertendo tipos de variáveis
+Diferença entre Convert e Parse
+Conversão para string
+Cast implícito
+Ordem dos operadores
+Convertendo de maneira segura

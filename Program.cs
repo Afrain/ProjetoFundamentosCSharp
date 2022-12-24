@@ -36,3 +36,30 @@ Console.WriteLine("Valor da variável dataAtualMais5Dias sem o horário: " + dat
 // Valor da variável dataAtualMais5Dias: 25/12/2022 21:14:46
 // Valor da variável dataAtualMais5Dias sem o horário: 25/12/2022
 
+
+// Operador de atribuição =
+
+int a = 20;
+int b = 30;
+int c = a + b;
+Console.WriteLine("Soma:" + c);
+// SAIDA -> Soma:50
+
+// Convertendo tipos de variáveis
+
+// cast - casting
+int d = Convert.ToInt32("5"); 
+int dd = Convert.ToInt32(null); // Convert aceita valores nulos
+Console.WriteLine(dd); // SAIDA: 0
+
+int e = int.Parse("5");
+Console.WriteLine(d);
+
+int inteiro = 5;
+string f = inteiro.ToString();
+
+int g = 5;
+double h = g; // Cast implícito
+
+string i = "5c";
+int.TryParse(i, out int j); // Conversão de forma segura!
