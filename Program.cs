@@ -63,3 +63,48 @@ double h = g; // Cast implícito
 
 string i = "5c";
 int.TryParse(i, out int j); // Conversão de forma segura!
+
+// Operadores lógicos
+
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+bool possivelCompra = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+
+Console.WriteLine("Quantidade em estoque: " + quantidadeEmEstoque);
+Console.WriteLine("Quantidade compra: " + quantidadeCompra);
+Console.WriteLine("Possivel compra: " + possivelCompra);
+
+if (quantidadeCompra == 0)
+{
+    Console.WriteLine("Quantidade inválida!");
+}
+else if (quantidadeEmEstoque >= quantidadeCompra)
+{
+    Console.WriteLine("Compra realizada com sucesso!");
+} 
+else 
+{
+    Console.WriteLine("Produto não possui estoque suficiente! Quantidade em estoque é de: " + quantidadeEmEstoque);
+}
+
+
+// Swicth case
+
+Console.WriteLine("Informe uma letra: ");
+string entrada = Console.ReadLine();
+string letra = entrada.ToLower();
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+    Console.WriteLine("Vogal!");
+    break;
+
+    default:
+    Console.WriteLine("Não é vogal!");
+    break;
+}

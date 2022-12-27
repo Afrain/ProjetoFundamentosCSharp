@@ -33,3 +33,15 @@
 * Cast implícito
 * Ordem dos operadores
 * Convertendo de maneira segura
+
+## Operadores condicionais
+
+* Debugando o operador condicional
+* IF aninhado
+* Switch case
+
+## Operadores lógicos
+
+* Operador OR
+* Operador AND
+* Operador NOT
