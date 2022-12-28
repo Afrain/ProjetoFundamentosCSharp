@@ -90,21 +90,29 @@ else
 
 // Swicth case
 
-Console.WriteLine("Informe uma letra: ");
-string entrada = Console.ReadLine();
-string letra = entrada.ToLower();
+//Console.WriteLine("Informe uma letra: ");
+//string entrada = Console.ReadLine();
+//string letra = entrada.ToLower();
 
-switch (letra)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-    Console.WriteLine("Vogal!");
-    break;
+//switch (letra)
+//{
+    //case "a":
+    //case "e":
+    //case "i":
+    //case "o":
+    //case "u":
+    //Console.WriteLine("Vogal!");
+    //break;
 
-    default:
-    Console.WriteLine("Não é vogal!");
-    break;
-}
+    //default:
+    //Console.WriteLine("Não é vogal!");
+    //break;
+//}
+
+Calculadora calc = new Calculadora();
+
+calc.Somar(10,12);
+calc.Subtrair(10,2);
+calc.Multiplicar(10,5);
+calc.Dividir(100,5);
+calc.Potencia(3,3);

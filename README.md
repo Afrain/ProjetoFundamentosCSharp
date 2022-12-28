@@ -45,3 +45,11 @@
 * Operador OR
 * Operador AND
 * Operador NOT
+
+## Operadores Aritméticos e a classe math
+
+* Operadores aritméticos
+* Potência
+* Funções Trigonométricas
+* Incremento e Decremento
+* Calculando Raiz Quadrada
