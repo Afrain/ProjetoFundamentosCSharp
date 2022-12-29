@@ -116,3 +116,29 @@ calc.Subtrair(10,2);
 calc.Multiplicar(10,5);
 calc.Dividir(100,5);
 calc.Potencia(3,3);
+
+
+// Tabuada utilizando o For
+int numero = 10;
+for (int cont = 1; cont <= 10; cont++)
+{
+    Console.WriteLine(numero + " * " + cont + " = " + (numero * cont));
+}
+
+// Tabuada utilizando o While
+int contador = 1;
+while (contador <= 10)
+{
+    Console.WriteLine(numero + " * " + contador + " = " + (numero * contador));
+    contador++;
+}
+
+// do while
+int soma = 0, numeroDigitado = 0;
+do
+{
+    Console.WriteLine("Digite um número: ");
+    numeroDigitado = Convert.ToInt32(Console.ReadLine());
+    soma += numeroDigitado;
+} while (numeroDigitado != 0);
+Console.WriteLine("Soma: " + soma);

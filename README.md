@@ -53,3 +53,9 @@
 * Funções Trigonométricas
 * Incremento e Decremento
 * Calculando Raiz Quadrada
+
+## Estruturas de repetição
+
+* For
+* While
+* Do While
