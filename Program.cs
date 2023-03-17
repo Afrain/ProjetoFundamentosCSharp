@@ -3,7 +3,7 @@
 Pessoa pessoa1 = new Pessoa();
 pessoa1.Nome = "Afrain";
 pessoa1.Idade = 29;
-pessoa1.apresentar();
+pessoa1.Apresentar();
 
 string apresentacao = "Olá, seja bem vindo";
 int quantidade = 1;
